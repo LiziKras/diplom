@@ -1,0 +1,91 @@
+.headeradmin{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+
+}
+.containerHeaderAdmin{
+    width: 100%;
+}
+
+.account{
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative; /* Позиционируем блок меню относительно его родителя */
+    cursor: pointer; /* Делаем указатель курсора при наведении на блок меню */
+}
+
+.logoAdmin{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    border-right: 1px solid #dcdcdc;
+}
+
+.logoAdmin-txt{
+    font-size: 24px;
+    margin-left: 0px;
+    margin-top: 4px;
+    margin-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logoAdmin-img{
+    height: 70px;
+    
+}
+.logoAvatar-img{
+    height: 50px;
+}
+.avatar-txt{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.check-img{
+    height: 15px;
+}
+
+
+
+/* Добавляем стили для выпадающего меню */
+.dropdown-menu {
+    position: absolute; /* Позиционируем меню абсолютно относительно ближайшего позиционированного родителя */
+    top: 100%; /* Позиционируем меню под элементом "menu" */
+    left: 0; /* Выравниваем меню по левому краю */
+    list-style: none; /* Убираем маркеры списка */
+    padding: 10px; /* Убираем отступы */
+    margin: 0; /* Убираем отступы */
+    background-color: #fff; /* Цвет фона меню */
+    border: 1px solid #2271b3; /* Добавляем рамку вокруг меню */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Добавляем тень */
+    z-index: 1000; /* Устанавливаем высокий уровень z-index, чтобы меню было поверх остального контента */
+    width: 150px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+.dropdown-menu a{
+    text-decoration: none; /* Убираем подчеркивание */
+    color: #2271b3; /* Изменяем цвет текста на черный */
+
+}
+.dropdown-menu a:hover{
+    color: #ff0000;
+}
+
+.dropdown-menu:hover {
+    border: 1px solid #ff0000;
+} 
+
+.delete-img{
+    margin-right: 4px;
+}

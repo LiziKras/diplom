@@ -1,0 +1,54 @@
+.txtForm{
+    font-size: 18px;
+    margin-right: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+.mrg-left{
+    margin-left: 70px;
+}
+
+input{
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  box-shadow: inset 0px 8px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nomerdate{
+    width: 300px;
+}
+
+.poluchatel{
+    width: 778px;
+}
+
+.marka{
+    width: 751px;
+}
+
+select{
+    padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  box-shadow: inset 0px 8px 5px rgba(0, 0, 0, 0.1);
+  width: 600px;
+}
+.containerPasport{
+    display: flex;
+}
+.buttonSend{
+    height: 60px;
+    width: 60px;
+    background-color: #2271b3;
+    border: #065D9C;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.btn-send{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}

@@ -1,0 +1,63 @@
+.container_aboutcompany{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aboutcompany{
+    width: 100%;
+    background-color: #ADADAD;
+    height: 363px;
+    display: flex;
+    justify-content: center; /* Центрирование по горизонтали */
+    align-items: center;
+}
+.txt-bold{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 15px;
+    line-height: 30px;
+}
+
+.txt-reg{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 30px;
+}
+.txt-ZAO{
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: #FFF457;
+}
+
+.info{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon-info{
+    height: 50px;
+    width: 50px;
+    margin-right: 23px;
+}
+
+.title-desc{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.subtitle-desc{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    color: #494949;
+}
+
+/* .description{
+    text-align: justify;
+} */

@@ -1,0 +1,56 @@
+.tab-buttons{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border-right: 1px solid #dcdcdc;
+    height: 100vh;
+}
+
+.burger-tabs{
+    display: flex;
+}
+
+/* Общие стили для кнопок */
+.tab-buttons button {
+    background-color: white;
+    border: none;
+    height: 70px;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Стили для активной кнопки */
+  .tab-buttons button.active {
+    background-color: #F1EEEE;
+    box-shadow: inset 0px 8px 5px rgba(0, 0, 0, 0.1);  }
+  
+  /* Дополнительные стили по желанию */
+  .tab-buttons button:hover {
+    background-color: #F1EEEE; /* Цвет при наведении */
+    color: #000; /* Цвет текста при наведении */
+    box-shadow: inset 0px 8px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+.txt-button-admin{
+    font-size: 16px;
+    margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logoAsideBarMenu{
+    width: 20px;
+    margin-left: 20px;
+}
+
+.tab-content{
+  background-color: #F1EEEE;
+  display: flex;
+  align-items: top;
+  padding-left: 50px;
+  width: 1050px;
+}
+
+
+.pasportBlock{
+  margin-top: 20px;
+}

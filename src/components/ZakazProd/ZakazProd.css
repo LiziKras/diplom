@@ -1,0 +1,39 @@
+.ZakazProd{
+    background-color: #4B4B4B;
+    height: 550px;
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Центрирование по горизонтали */
+    align-items: center; /* Центрирование по вертикали */
+}
+
+.container_ZakazProd{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.photo{
+    height: 550px;
+    width: 50%;
+}
+.zakaz{
+    width: 50%;
+}
+.txt-title{
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+    color: #FFF457;
+}
+.txt-subtitle{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    line-height: 30px;
+}
+.txt-title2{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #FFF457;
+}

@@ -1,0 +1,7 @@
+.swiper{
+    background-color: white;
+    height: 594px;
+}
+.swiper-container {
+    height: 100%; /* или любая другая высота, которая соответствует вашим потребностям */
+  }

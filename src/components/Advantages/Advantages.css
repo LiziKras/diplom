@@ -1,0 +1,44 @@
+.Advantages{
+    background-color: white;
+    height: 460px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container_Advantages{
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.our-adv{
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+    color: #151716;
+    margin-bottom: 58px;
+}
+.adv{
+    display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-template-rows: 1fr; 
+  gap: 150px;
+}
+.example{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    text-align: justify;
+}
+
+.title-adv{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.subtitle-adv{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: #7B7B7B;
+}

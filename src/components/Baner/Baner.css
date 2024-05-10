@@ -1,0 +1,26 @@
+.Baner{
+    background-color: gray;
+    height: 642px;
+    background-image: url(/src/images/XXXL\ 1.svg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container_Baner{
+    width: 1200px;
+    align-self: end;
+}
+.slogan{
+    background-color: #4B4B4B;
+    height: 161px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.txt{
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    color: white;
+    text-align: center;
+}

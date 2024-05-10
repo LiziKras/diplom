@@ -1,0 +1,27 @@
+.Footer{
+    background-color: #4B4B4B;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container_Footer{
+    width: 1200px;
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 50px;
+
+}
+
+.example{
+    display: flex;
+    align-items: center; 
+}
+.marker{
+    margin-right: 10px;
+}
+.item{
+    display: flex;
+    text-align: justify;
+}

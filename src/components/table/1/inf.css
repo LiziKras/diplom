@@ -1,0 +1,33 @@
+.container-Inf{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+.input-group-big-txt{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-inf{
+    width: 500px;
+    margin-left: 10px;
+}
+.proectDan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+}
+
+.input-izm-inf{
+    width: 410px;
+    margin-left: 10px;
+}
+.big-text{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
